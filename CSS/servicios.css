@@ -1,0 +1,140 @@
+
+
+body {
+    background: url(../IMG/fondo\ servicios.png);
+    background-repeat: no-repeat;
+
+}
+#menu{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(0, 43, 201);
+    font-size: 20px;
+    word-spacing: 30px;
+    margin-top: 40px;
+    text-align: center;}
+       
+     a{
+            text-decoration: none;
+        }
+      a:visited{
+            color:rgb(0, 43, 201);
+     }
+h1{
+font-family: "Roboto Condensed";
+position: absolute;
+margin-top: 35px;
+margin-left: 770px;
+font-size: 55px;
+color: rgb(0, 43, 201);
+}
+h2{
+    font-family: "Roboto Condensed";
+    color: white;
+}
+
+.ventana {
+    width:350px;
+    position: absolute;
+    background-color:rgb(0, 43, 201);
+    border-radius: 50px 50px;
+    display: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    z-index: 1;
+    bottom:155px;
+    margin-left: 750px;
+}
+.ventana img, .consultas img, .atencion img{
+    height: 250px;
+}
+P{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cerrar,#cerrar2,#cerrar3,#cerrar4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 43, 201);
+    background-color:white;
+    border-radius: 20px 20px;
+    padding: 10px;
+}
+#uno img{
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.tratamiento{
+    width:350px;
+    position: absolute;
+    background-color:rgb(0, 43, 201);
+    border-radius: 50px 50px;
+    display: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    z-index: 1;
+    bottom:155px;
+    margin-left: 750px;}
+    
+#tres img, #cuatro img, #cinco img{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.tratamiento img{
+    height: 250px;
+}
+.consultas{
+    width:350px;
+    position: absolute;
+    background-color:rgb(0, 43, 201);
+    border-radius: 50px;
+    display: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    z-index: 1;
+    bottom:155px;
+    margin-left: 750px;
+}
+.atencion{
+    width:350px;
+    position: absolute;
+    background-color:rgb(0, 43, 201);
+    border-radius: 50px;
+    display: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    z-index: 1;
+    bottom:155px;
+    margin-left: 750px;
+}
+#uno img{
+    position: relative;
+    bottom: 200px
+    ;
+    left: 90px;
+}
+#tres img{
+    position: relative;
+    left: 50px;
+}
+#cuatro img{
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+}
+#cinco img{
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+#uno img:hover, #tres img:hover, #cuatro img:hover, #cinco img:hover{
+    transform: scale(1.2,1.2);
+}

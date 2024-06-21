@@ -1,0 +1,85 @@
+body{
+    background-color:#002BC9 ;
+}
+#menu{
+    font-family: "Roboto Condensed";
+        font-weight:700;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        word-spacing: 30px;
+        margin-top: 40px;
+        text-align: center;}
+        a{
+            color: white;
+            text-decoration: none;
+        }
+a:visited{
+    color: white;}
+h1{
+    font-family: "Roboto Condensed";
+    color: white;
+    text-align: center;
+    font-weight:700;
+    font-size: 55px;
+}
+#imagenes{
+    background-color: white;
+    height:60%;
+    width:102%;
+}
+img{
+    height: 355px;
+    margin-top: 100px;
+    margin-left: 90px;
+    display: inline-block;
+    justify-content: center;}
+h2{
+    color:#002BC9;
+    font-family: "Roboto Condensed"; 
+       width: 375px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 375px;
+}
+#parrafo1{
+    color:#002BC9;
+    width: 375px;
+display:inline-block;
+text-align: center;
+padding:50px ;
+margin-left: 110px;
+}
+#parrafo2{
+    color:#002BC9;
+    width: 375px;
+display:inline-block;
+text-align: center;
+padding:50px ;
+margin-left: 110px;
+
+}
+#parrafo3{
+    color:#002BC9;
+    width: 375px;
+    display:inline-block;
+    text-align: center;
+    padding:50px ;
+    margin-left: 110px;
+
+}
+#parrafo4{
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+img:hover{
+    transform:  rotate(7deg) scale(1.4,1.4);}
+

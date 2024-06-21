@@ -1,0 +1,137 @@
+body {
+    background: url(../IMG/fondo\ contacto.jpg);
+    background-size: 1920PX;
+    background-repeat: no-repeat;
+
+}
+
+#menu {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 43, 201);
+    font-size: 20px;
+    word-spacing: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+img {
+    height: 260px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 43, 201);
+    ;
+}
+
+h1 {
+    font-family: "Roboto Condensed";
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 770px;
+    font-size: 55px;
+    color: rgb(0, 43, 201);
+}
+
+#red1 {
+    margin-top: 120px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+#red2 {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 200px
+}
+
+#red3 {
+    margin-top: 120px;
+    margin-left: 1350px;
+    position: absolute;
+}
+
+#red4 {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 1350px
+}
+
+img:hover {
+    transform: scale(1.4, 1.4);
+}
+
+#patita img {
+    height: 75px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 10px;
+    animation: patita 7s infinite;
+}
+
+#patitados img {
+    height: 45px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 105px;
+    animation: patitados 7s infinite;
+}
+
+#patitatres img {
+    height: 45px;
+    margin-left: 90px;
+    position: absolute;
+    bottom: 80px;
+    animation: patitatres 7s infinite;
+}
+
+@keyframes patita {
+    0% {
+        transform: translateY(0px) translateX(0px)
+    }
+
+    50% {
+        transform: translateY(-450px) translateX(900px);
+
+    }
+
+    100% {
+        transform: translateX(1980px) translateY(-900px);
+    }
+}
+
+@keyframes patitados {
+    0% {
+        transform: translateY(0px) translateX(0px)
+    }
+
+    50% {
+        transform: translateY(-450px) translateX(900px);
+
+    }
+
+    100% {
+        transform: translateX(900px) translateY(-900px);
+
+    }
+}
+
+@keyframes patitatres {
+
+    0% {
+        transform: translateY(0px) translateX(0px)
+    }
+
+    50% {
+        transform: translateY(-450px) translateX(900px);
+    }
+
+    100% {
+        transform: translateX(1980px) translateY(-450px)
+    }
+}
